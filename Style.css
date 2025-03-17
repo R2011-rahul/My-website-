@@ -1,1 +1,120 @@
+/* 🌿 General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+/* 🌟 Header Styling */
+header {
+    background: #27ae60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* 📌 Navigation Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #1abc9c;
+    border-radius: 5px;
+}
+
+/* 📌 Section Container */
+.container {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ✅ Services & Gallery Sections */
+.services, .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* 📦 Box Styling (Services & Gallery) */
+.service-box, .gallery-box {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 280px;
+    transition: 0.3s;
+}
+
+.service-box:hover, .gallery-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* 🖼️ Gallery Images */
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 📞 Contact Section */
+#contact {
+    background: #27ae60;
+    color: white;
+    padding: 50px 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* 🦶 Footer Styling */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* 📱 Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .services, .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box, .gallery-box {
+        width: 90%;
+    }
+}
