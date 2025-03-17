@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Apple Trekking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #27ae60;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2c3e50;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background: #1abc9c;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .services, .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .service-box, .gallery-box {
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 250px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
 
+    <!-- Header -->
+    <header>
+        Welcome to Holy Apple Trekking
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <h2>Explore the Unseen!</h2>
+        <p>Join us for the best trekking experience in the most beautiful landscapes.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Holy Apple Trekking is a premium trekking company offering breathtaking experiences in the mountains.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Guided Treks</h3>
+                <p>Explore with experienced guides and enjoy safe trekking.</p>
+            </div>
+            <div class="service-box">
+                <h3>Camping</h3>
+                <p>Stay under the stars with our well-equipped camps.</p>
+            </div>
+            <div class="service-box">
+                <h3>Mountain Expeditions</h3>
+                <p>For adventure seekers, we offer thrilling expeditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-box">
+                <img src="trek1.jpg" width="100%" alt="Trek Image 1">
+                <p>Beautiful Trails</p>
+            </div>
+            <div class="gallery-box">
+                <img src="trek2.jpg" width="100%" alt="Trek Image 2">
+                <p>Sunset Views</p>
+            </div>
+            <div class="gallery-box">
+                <img src="trek3.jpg" width="100%" alt="Trek Image 3">
+                <p>Adventure Awaits</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: contact@holyappletrekking.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Location: Mountain Base Camp</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Holy Apple Trekking. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
